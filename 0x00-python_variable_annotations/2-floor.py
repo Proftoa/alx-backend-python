@@ -3,13 +3,12 @@
 Task 2: Write a type-annotated function floor
 """
 
-import math
-
 
 def floor(n: float) -> int:
     """
     Computes the floor of a floating-point number.
     """
-    return math.floor(n)
+    return int(n // 1)
+
 
 
