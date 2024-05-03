@@ -6,9 +6,10 @@ Task 2: Write a type-annotated function floor
 import math
 
 
-def floor(a: float) -> int:
+def floor(n: float) -> int:
     """
     Computes the floor of a floating-point number.
     """
-    return math.floor(a)
+    return math.floor(n)
+
 
